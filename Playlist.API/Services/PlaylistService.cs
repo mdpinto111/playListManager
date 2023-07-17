@@ -1,10 +1,11 @@
 using Playlist.API.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using Playlist.API.Controllers;
 
 namespace Playlist.API.Services;
 
-public class PlaylistService
+public class PlaylistService : IPlaylistService
 {
     private readonly IMongoCollection<PlaylistModel> _playlistCollection;
 

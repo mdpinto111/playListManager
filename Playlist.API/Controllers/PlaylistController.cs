@@ -8,9 +8,9 @@ namespace Playlist.API.Controllers;
 [Route("api/[controller]")]
 public class PlaylistController : ControllerBase
 {
-    private readonly PlaylistService _playListService;
+    private readonly IPlaylistService _playListService;
 
-    public PlaylistController(PlaylistService playListService) =>
+    public PlaylistController(IPlaylistService playListService) =>
         _playListService = playListService;
 
     [HttpGet]

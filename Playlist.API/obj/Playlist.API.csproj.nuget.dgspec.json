@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.API\\Playlist.API.csproj": {}
+    "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.Api\\Playlist.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.API\\Playlist.API.csproj": {
+    "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.Api\\Playlist.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.API\\Playlist.API.csproj",
-        "projectName": "Playlist.API",
-        "projectPath": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.API\\Playlist.API.csproj",
+        "projectUniqueName": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.Api\\Playlist.Api.csproj",
+        "projectName": "Playlist.Api",
+        "projectPath": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.Api\\Playlist.Api.csproj",
         "packagesPath": "C:\\Users\\shaam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.API\\obj\\",
+        "outputPath": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

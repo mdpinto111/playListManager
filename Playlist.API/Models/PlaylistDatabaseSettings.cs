@@ -7,4 +7,12 @@ public class PlaylistDatabaseSettings
     public string DatabaseName { get; set; } = null!;
 
     public string CollectionName { get; set; } = null!;
+
+    public PlaylistDatabaseSettings(
+        string conStr, string dbN, string collN)
+    {
+        ConnectionString = conStr;
+        DatabaseName = dbN;
+        CollectionName = collN;
+    }
 }

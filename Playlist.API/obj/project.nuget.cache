@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EifPRRUnT6B7l+c4hbyMRF4UBcGrqVjUP3dS9lV3qKemMYxIUgUYHX+QMrZfx2RR8Ia/hU4K546cA8MssVVN/g==",
+  "dgSpecHash": "UltI8CjVRkZl6Qbw3tmfWh3DZPWnyYy4vV5dLeZ9QsvRk1V6RA6JndhKIVQlceUzd6W3irDDky5SIM28l5bp7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.API\\Playlist.API.csproj",
+  "projectFilePath": "C:\\Users\\shaam\\Desktop\\Playlist.API\\Playlist.Api\\Playlist.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shaam\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\shaam\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
