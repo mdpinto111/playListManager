@@ -1,0 +1,5 @@
+C:\Users\shaam\Desktop\Playlist.API\Playlist.API.Tests\obj\Debug\net7.0\Playlist.API.Tests.csproj.AssemblyReference.cache
+C:\Users\shaam\Desktop\Playlist.API\Playlist.API.Tests\obj\Debug\net7.0\Playlist.API.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaam\Desktop\Playlist.API\Playlist.API.Tests\obj\Debug\net7.0\Playlist.API.Tests.AssemblyInfoInputs.cache
+C:\Users\shaam\Desktop\Playlist.API\Playlist.API.Tests\obj\Debug\net7.0\Playlist.API.Tests.AssemblyInfo.cs
+C:\Users\shaam\Desktop\Playlist.API\Playlist.API.Tests\obj\Debug\net7.0\Playlist.API.Tests.csproj.CoreCompileInputs.cache
