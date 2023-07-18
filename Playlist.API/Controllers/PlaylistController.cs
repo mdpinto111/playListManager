@@ -1,11 +1,12 @@
 using Playlist.API.Models;
-using Playlist.API.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Playlist.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class PlaylistController : ControllerBase
 {
     private readonly IPlaylistService _playListService;
@@ -28,6 +29,7 @@ public class PlaylistController : ControllerBase
         }
 
         return playlist;
+
     }
 
     [HttpPost]

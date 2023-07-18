@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj": {}
+    "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj": {
+    "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj",
         "projectName": "Playlist.API.Tests",
-        "projectPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj",
+        "projectPath": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\Playlist.API.Tests.csproj",
         "packagesPath": "C:\\Users\\shaam.T104235\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\obj\\",
+        "outputPath": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shaam.T104235\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,17 +150,37 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.20.0, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.28.0, )"
             }
           },
           "imports": [
