@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj": {
-                "projectPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj"
+              "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj": {
+                "projectPath": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj"
               }
             }
           }
@@ -113,14 +113,14 @@
         }
       }
     },
-    "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj": {
+    "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj",
-        "projectName": "Playlist.Api",
-        "projectPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj",
+        "projectUniqueName": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj",
+        "projectName": "Playlist.API",
+        "projectPath": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj",
         "packagesPath": "C:\\Users\\shaam.T104235\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\obj\\",
+        "outputPath": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shaam.T104235\\AppData\\Roaming\\NuGet\\NuGet.Config",

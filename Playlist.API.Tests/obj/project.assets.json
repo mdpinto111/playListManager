@@ -2976,7 +2976,7 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "Playlist.Api/1.0.0": {
+      "Playlist.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -2985,10 +2985,10 @@
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "compile": {
-          "bin/placeholder/Playlist.Api.dll": {}
+          "bin/placeholder/Playlist.API.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Playlist.Api.dll": {}
+          "bin/placeholder/Playlist.API.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -8716,10 +8716,10 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "Playlist.Api/1.0.0": {
+    "Playlist.API/1.0.0": {
       "type": "project",
-      "path": "../Playlist.Api/Playlist.Api.csproj",
-      "msbuildProject": "../Playlist.Api/Playlist.Api.csproj"
+      "path": "../Playlist.API/Playlist.API.csproj",
+      "msbuildProject": "../Playlist.API/Playlist.API.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8727,7 +8727,7 @@
       "Microsoft.AspNetCore.Mvc.Core",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "Moq >= 4.16.1",
-      "Playlist.Api >= 1.0.0",
+      "Playlist.API >= 1.0.0",
       "Serilog >= 3.0.1",
       "Serilog.Sinks.Console >= 4.1.0",
       "Serilog.Sinks.File >= 5.0.0",
@@ -8765,8 +8765,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj": {
-              "projectPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.Api\\Playlist.Api.csproj"
+            "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj": {
+              "projectPath": "c:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj"
             }
           }
         }
