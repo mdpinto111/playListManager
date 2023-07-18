@@ -14,6 +14,9 @@
           "Playlist.Api": "1.0.0",
           "Serilog": "3.0.1",
           "Serilog.Sinks.Console": "4.1.0",
+          "Serilog.Sinks.File": "5.0.0",
+          "Serilog.Sinks.TestCorrelator": "3.2.0",
+          "Serilog.Sinks.XUnit": "3.0.5",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
@@ -838,6 +841,44 @@
           }
         }
       },
+      "Serilog.Sinks.File/5.0.0": {
+        "dependencies": {
+          "Serilog": "3.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.TestCorrelator/3.2.0": {
+        "dependencies": {
+          "Serilog": "3.0.1",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Reactive": "4.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.TestCorrelator.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.XUnit/3.0.5": {
+        "dependencies": {
+          "Serilog": "3.0.1",
+          "xunit.abstractions": "2.0.3",
+          "xunit.extensibility.core": "2.4.2",
+          "xunit.extensibility.execution": "2.4.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.XUnit.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
+          }
+        }
+      },
       "SharpCompress/0.30.1": {
         "runtime": {
           "lib/net5.0/SharpCompress.dll": {
@@ -919,6 +960,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Collections.Immutable/1.5.0": {},
       "System.Collections.NonGeneric/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -1224,6 +1266,18 @@
           "System.Threading": "4.3.0"
         }
       },
+      "System.Reactive/4.1.2": {
+        "dependencies": {
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.2.343"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1328,6 +1382,17 @@
           "System.Runtime.InteropServices": "4.3.0",
           "System.Threading": "4.3.0",
           "runtime.native.System": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
         }
       },
       "System.Runtime.Numerics/4.3.0": {
@@ -2131,6 +2196,27 @@
       "path": "serilog.sinks.console/4.1.0",
       "hashPath": "serilog.sinks.console.4.1.0.nupkg.sha512"
     },
+    "Serilog.Sinks.File/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "path": "serilog.sinks.file/5.0.0",
+      "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.TestCorrelator/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bUMJku0fgIQFaBHsdGtsJchtFqMysvFb1fztPvUU19UGX/2AU+S4bcH9wRblIgR9xrL8LKDIzAI8z85CNEwx/A==",
+      "path": "serilog.sinks.testcorrelator/3.2.0",
+      "hashPath": "serilog.sinks.testcorrelator.3.2.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.XUnit/3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Lp5sBCcdtb7b2Kpjr6rtgg9ZWFCM8Tlp2dlFkfvBfFQd3Zw81HQdP5FKXggLAwbE8tX/i5odAIhjly9C5jUrw==",
+      "path": "serilog.sinks.xunit/3.0.5",
+      "hashPath": "serilog.sinks.xunit.3.0.5.nupkg.sha512"
+    },
     "SharpCompress/0.30.1": {
       "type": "package",
       "serviceable": true,
@@ -2200,6 +2286,13 @@
       "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
     },
     "System.Collections.NonGeneric/4.3.0": {
       "type": "package",
@@ -2397,6 +2490,13 @@
       "path": "system.objectmodel/4.3.0",
       "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
     },
+    "System.Reactive/4.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QRxhdvoP51UuXZbSzcIiFu3/MCSAlR8rz3G/XMcm3b+a2zOC5ropDVaZrjXAO+7VF04Aqk4MCcLEdhxTfWVlZw==",
+      "path": "system.reactive/4.1.2",
+      "hashPath": "system.reactive.4.1.2.nupkg.sha512"
+    },
     "System.Reflection/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2501,6 +2601,13 @@
       "sha512": "sha512-cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J4GUi3xZQLUBasNwZnjrffN8i5wpHrBtZoLG+OhRyGo/+YunMRWWtwoMDlUAIdmX0uRfpHIBDSV6zyr3yf00TA==",
+      "path": "system.runtime.interopservices.windowsruntime/4.3.0",
+      "hashPath": "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512"
     },
     "System.Runtime.Numerics/4.3.0": {
       "type": "package",

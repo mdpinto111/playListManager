@@ -7,11 +7,19 @@ using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using Serilog.Core;
 using Serilog.Events;
+using Serilog.Sinks.TestCorrelator;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using Serilog.Sinks.XUnit;
+
 
 namespace Playlist.API.Tests.Services
 {
     public class PlaylistControllerTests
     {
+
         [Fact]
         public async Task Get_ReturnsListOfPlaylists()
         {
@@ -24,16 +32,27 @@ namespace Playlist.API.Tests.Services
             };
             mockPlaylistService.Setup(service => service.GetAsync()).ReturnsAsync(expectedPlaylists);
             var controller = new PlaylistController(mockPlaylistService.Object);
-
+                     
             // Act
             var result = await controller.Get();
-             Log.Logger = new LoggerConfiguration()
-                .WriteTo.Console()
-                .CreateLogger();
-            Log.Information("Test result: {Result}", result);
 
-            // Assert
-            Assert.Equal(1, 1);
+            Assert.IsType<List<PlaylistModel>>(result);
+            Assert.True(result != null && expectedPlaylists.Count == result.Count);
+        }
+
+        [Fact]
+        public async Task Get_ReturnListNoExist()
+        {
+            // Arrange
+            var mockPlaylistService = new Mock<IPlaylistService>();
+            var expectedPlaylists = new List<PlaylistModel> ();
+            mockPlaylistService.Setup(service => service.GetAsync()).ReturnsAsync(expectedPlaylists);
+            var controller = new PlaylistController(mockPlaylistService.Object);
+                     
+            // Act
+            var result = await controller.Get();
+
+            Assert.False(result.Count > 0);
         }
     }
 }

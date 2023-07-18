@@ -11,5 +11,5 @@ public class PlaylistModel
 
     public string username { get; set; } = null!;
 
-    public List<String> items { get; set; }
+    public List<String> items { get; set; } = null!;
 }

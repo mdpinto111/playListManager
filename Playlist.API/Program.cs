@@ -1,5 +1,6 @@
 using Playlist.API.Models;
 using Playlist.API.Services;
+using Playlist.API.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<PlaylistDatabaseSettings>(
     builder.Configuration.GetSection("PlaylistDatabase"));
 
-builder.Services.AddSingleton<PlaylistService>();
+builder.Services.AddScoped<IPlaylistService, PlaylistService>();
 
 
 
