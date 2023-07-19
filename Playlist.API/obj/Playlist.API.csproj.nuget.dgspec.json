@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj": {}
+    "C:\\code\\playlistDavid\\playListManager\\Playlist.API\\Playlist.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj": {
+    "C:\\code\\playlistDavid\\playListManager\\Playlist.API\\Playlist.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj",
+        "projectUniqueName": "C:\\code\\playlistDavid\\playListManager\\Playlist.API\\Playlist.API.csproj",
         "projectName": "Playlist.API",
-        "projectPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\Playlist.API.csproj",
-        "packagesPath": "C:\\Users\\shaam.T104235\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaam.T104235\\Desktop\\playlist\\playListManager\\Playlist.API\\obj\\",
+        "projectPath": "C:\\code\\playlistDavid\\playListManager\\Playlist.API\\Playlist.API.csproj",
+        "packagesPath": "C:\\Users\\shaam\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\playlistDavid\\playListManager\\Playlist.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\shaam.T104235\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shaam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

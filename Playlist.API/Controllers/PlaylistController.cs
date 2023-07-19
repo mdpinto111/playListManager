@@ -15,8 +15,9 @@ public class PlaylistController : ControllerBase
         _playListService = playListService;
 
     [HttpGet]
-    public async Task<List<PlaylistModel>> Get() =>
-        await _playListService.GetAsync();
+    public async Task<List<PlaylistModel>> Get() {
+        return await _playListService.GetAsync();
+    }
 
     [HttpGet("{id:length(24)}")]
     public async Task<ActionResult<PlaylistModel>> Get(string id)
